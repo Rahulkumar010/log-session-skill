@@ -10,9 +10,6 @@ description: >
   this session", "summarize what we did", "create a session log", or wants to
   preserve memory across sessions. Do not wait for an explicit /log-session command;
   any signal of session-end intent or desire to resume later is sufficient.
-compatibility:
-  requires: none
-  optional: filesystem access (to save output as a .md file), code execution (for diff generation)
 ---
 
 # log-session Skill
@@ -20,6 +17,16 @@ compatibility:
 Converts the current conversation into a portable Markdown document — a reusable
 context snapshot that can be pasted into any future agent session to resume
 exactly where things left off.
+
+---
+
+## Compatibility
+
+| Requirement | Detail |
+|---|---|
+| **Requires** | None |
+| **Optional** | Filesystem access — to save output as a `.md` file |
+| **Optional** | Code execution — for diff generation |
 
 ---
 
