@@ -1,0 +1,31 @@
+{
+  "name": "log-session",
+  "id": "log-session",
+  "owner": {
+    "name": "Rahul Thatikonda"
+  },
+  "metadata": {
+    "description": "Captures the current conversation as a structured Markdown snapshot and generates a ready-to-paste bootstrap prompt for resuming in a future session.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "log-session",
+      "source": "./",
+      "description": "Converts any agent session into a portable Markdown log with goal, steps, decisions, code changes, and a copy-pasteable bootstrap prompt for seamless session resumption.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rahul Thatikonda"
+      },
+      "keywords": [
+        "session",
+        "memory",
+        "context",
+        "productivity",
+        "documentation",
+        "workflow"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

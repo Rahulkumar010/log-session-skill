@@ -1,0 +1,11 @@
+{
+  "name": "log-session",
+  "description": "Captures the current conversation as a structured Markdown snapshot and generates a ready-to-paste bootstrap prompt for resuming in a future session.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rahul Thatikonda"
+  },
+  "license": "MIT",
+  "keywords": ["session", "memory", "context", "productivity", "documentation", "workflow"],
+  "skills": ["./skills/log-session"]
+}
